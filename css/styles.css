@@ -6,12 +6,27 @@
 
 html, body {
     background-color: #fdfdfd;
-  	font-family: 'Lato', sans-serif;
+  	font-family: "Lato", sans-serif;
 }
 
-ul li {
+h1 {
+    font-family: 'Fira Code';
+    font-weight: 500;
+    font-size: 7.5em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+}
+
+ul > li {
 	display: inline-block;
-	padding: 1em;
+    padding: 1em;
 }
 
 a {
@@ -20,12 +35,11 @@ a {
 
 i {
     transition: 0.375s color;
-    color: darkslategray;
+    color: slategray;
 }
 
-.header {
-    margin: auto;
-    width: 50$;
+.flex {
+    text-align: center;
 }
 
 #phone, #github, #facebook, #linkedin, #email, #resume {
@@ -34,7 +48,7 @@ i {
 
 #phone:hover {
     transition: 0.375s color;
-    color: #8cbed6;
+    color: #33a1de;
 }
 
 #github:hover {
