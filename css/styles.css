@@ -38,7 +38,7 @@ a {
 }
 
 i {
-    transition: 0.37s color;
+    transition: all 0.375s;
     color: lightslategray;
 }
 
@@ -52,7 +52,7 @@ i {
 
 #phone:hover {
     transition: 0.25s color;
-    color: #33a1de;
+    color: #618bc9;
 }
 
 #github:hover {
@@ -65,7 +65,7 @@ i {
     color: #0077b5;
 }
 
-#email:hover {
+#email:hover, #resume:hover {
     transition: 0.25s color;
-    color: #0077b5;
+    color: darkslategray;
 }
