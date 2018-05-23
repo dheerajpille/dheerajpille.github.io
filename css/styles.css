@@ -1,6 +1,26 @@
- 
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+/* 
+	use Roboto or Lato for main website font, use fira code only for console looking stuff
+*/
 
-h1 {
-	font-family: "Fira Code", "Lucida Sans";
+html, body {
+	margin: 0;
+	padding: 0;
+  	font-family: 'Fira Code', 'Roboto', sans-serif;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+ul li {
+	display: inline-block;
+	padding: 0em 1em 0em 1em;
+}
+
+a {
+	color: inherit;
 }
