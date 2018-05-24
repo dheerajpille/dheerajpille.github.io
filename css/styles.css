@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
-/* 
-	use Roboto or Lato for main website font, use fira code only for console looking stuff
-*/
 
 html, body {
     margin: 0;
@@ -13,15 +10,38 @@ html, body {
 }
 
 h1 {
+    color: #fdfdfd;
     font-family: 'Fira Code';
     font-weight: 500;
     font-size: 7.5em;
-    padding-top: 0.375em;
+    padding: 0.375em 0 0.25em 0;
     height: 0.875em;
 }
 
 h2 {
     font-size: 3.5em;
+}
+
+span {
+    border-radius: 50%;
+    padding: 0.25em;
+    background: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 500% 500%;
+}
+
+
+@keyframes animatedgradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 ul {
