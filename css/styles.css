@@ -98,3 +98,11 @@ i {
     transition: 0.25s color;
     color: darkslategray;
 }
+
+.fa-envelope:hover:before {
+    content: "\f003";
+}
+
+.fa-file-text:hover:before {
+    content: "\f0f6";
+}
