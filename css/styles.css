@@ -5,7 +5,7 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #fdfdfd;
-  	font-family: "Lato", sans-serif;
+    font-family: "Lato", sans-serif;
     color: #191919;
 }
 
@@ -49,12 +49,12 @@ ul {
 }
 
 ul > li {
-	display: inline-block;
+    display: inline-block;
     padding: 1em;
 }
 
 a {
-	color: inherit;
+    color: inherit;
 }
 
 i {
@@ -79,26 +79,36 @@ i {
     font-size: 2.375em;
 }
 
+/* Android L Blue */
 #phone:hover {
-    transition: 0.25s color;
+    transition: color 0.25s;
     color: #618bc9;
 }
 
+/* GitHub Dark Gray */
 #github:hover {
-    transition: 0.25s color;
+    transition: color 0.25s;
     color: #333333;
 }
 
+/* LinkedIn Blue */
 #linkedin:hover {
-    transition: 0.25s color;
+    transition: color 0.25s;
     color: #0077b5;
 }
 
-#email:hover, #resume:hover {
-    transition: 0.25s color;
+/* Microsoft Blue */
+#email:hover {
+    transition: color 0.25s;
+    color: #00a1f1;
+}
+
+#resume:hover {
+    transition: color 0.25s;
     color: darkslategray;
 }
 
+/*
 .fa-envelope:hover:before {
     content: "\f003";
 }
@@ -106,3 +116,4 @@ i {
 .fa-file-text:hover:before {
     content: "\f0f6";
 }
+*/
