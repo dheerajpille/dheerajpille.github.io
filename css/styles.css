@@ -105,15 +105,5 @@ i {
 
 #resume:hover {
     transition: color 0.25s;
-    color: darkslategray;
+    color: #191919;
 }
-
-/*
-.fa-envelope:hover:before {
-    content: "\f003";
-}
-
-.fa-file-text:hover:before {
-    content: "\f0f6";
-}
-*/
